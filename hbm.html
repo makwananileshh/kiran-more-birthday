@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Kiran More</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="curtain" id="curtain" aria-label="Birthday page introduction">
+    <div class="curtain-panel curtain-left" aria-hidden="true"></div>
+    <div class="curtain-panel curtain-right" aria-hidden="true"></div>
+    <button class="curtain-button" id="open-curtain" type="button">COME INSIDE</button>
+  </div>
+  <div class="celebration-layer" id="celebration" aria-hidden="true"></div>
+
+  <header>
+    <div class="cursor" aria-hidden="true"></div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <h3 class="logo">HBD KIRAN MORE</h3>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#colleagues">COLLEAGUES</a></li>
+        <li><a href="#birthday-note">BIRTHDAY NOTE</a></li>
+      </ul>
+    </nav>
+
+    <section class="section1" id="home" aria-labelledby="birthday-title">
+      <div class="home">
+        <div class="headline">
+          <h1 id="birthday-title">Happy<br />Birthday<br />Kiran More</h1>
+        </div>
+        <img class="home-image" src="images/kiran.png" alt="Kiran celebrating a birthday" />
+      </div>
+    </section>
+  </header>
+
+  <section class="section2" id="colleagues" aria-label="Colleagues">
+    <nav class="buddies" aria-label="Colleague messages">
+      <h2 class="link" onclick="change('colleagues')">COLLEAGUES</h2>
+      <ul class="buddies-links">
+        <li class="link" data-colleague="urmila">URMILA</li>
+        <li class="link" data-colleague="fareeth">FAREETH</li>
+        <li class="link" data-colleague="ranjiv">RANJIV</li>
+        <li class="link" data-colleague="nilesh">NILESH</li>
+        <li class="link" data-colleague="ganesh">GANESH</li>
+        <li class="link" data-colleague="pratik">PRATIK</li>
+        <li class="link" data-colleague="maithili">MAITHILI</li>
+        <li class="link" data-colleague="saianush">SAIANUSH</li>
+        <li class="link" data-colleague="makwana">MAKWANA</li>
+      </ul>
+    </nav>
+
+    <div class="main">
+      <div class="content">
+        <div class="presentation">
+          <h1>Kiran More</h1>
+          <p>Aansu Bahe To Ehsaas Hota Hai,<br />Dosti Ke Bina Jeevan Kitna Udaas Rahta Hai,<br />Umr Ho Aapki Chand Jitni Lambi,<br />Aap Jaisa Dost Kahan Har Kisi Ke Pas Hota Hai,<br />Chand ki dharti par mukam Ho Aapka,<br />Hum Sab Toh Rhete Hai Choti Si Duniya Mai,<br />Par Khuda Kare Saara Jaha Ho Aapka.</p>
+        </div>
+        <img class="displayImg" src="images/main.jpeg" alt="Kiran with friends" />
+      </div>
+    </div>
+  </section>
+
+  <section class="birthday-note" id="birthday-note" aria-labelledby="birthday-note-title">
+    <div class="note-sparkles" aria-hidden="true">
+      <span>✦</span>
+      <span>✧</span>
+      <span>✦</span>
+      <span>✧</span>
+      <span>✦</span>
+    </div>
+    <div class="birthday-note-inner">
+      <h2 class="birthday-note-heading" id="birthday-note-title">A Few Words for You, Kiran Sir</h2>
+      <div class="birthday-note-message">
+        <p>Wishing you a very Happy Birthday!</p>
+        <p>Thank you for your guidance, support, and the positive energy you bring to the team. May the year ahead bring you great health, happiness, success, and many reasons to celebrate.</p>
+        <p>Have a fantastic year ahead! 🎂✨</p>
+      </div>
+      <p class="birthday-note-signoff">With Best Wishes,<br />✨Your Amazing TSD Team✨</p>
+    </div>
+  </section>
+
+  <script src="hover.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
