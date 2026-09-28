@@ -271,4 +271,17 @@ openCurtainButton.addEventListener("click", function () {
   curtain.classList.add("is-open");
   document.body.classList.add("curtain-open");
   startCelebration();
+
+  // Play birthday music from the beginning
+  const birthdayMusic = document.querySelector("#birthdayMusic");
+
+  if (birthdayMusic) {
+    birthdayMusic.currentTime = 0;
+
+    birthdayMusic.addEventListener("timeupdate", function stopMusic() {
+      if (birthdayMusic.currentTime >= 13) {
+        birthdayMusic.pause();
+        birthdayMusic.currentTime = 0;
+        birthdayMusic.removeEventListener("timeupdate", stopMusic);
+      }
 });
