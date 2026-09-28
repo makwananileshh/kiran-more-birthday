@@ -284,4 +284,6 @@ openCurtainButton.addEventListener("click", function () {
         birthdayMusic.currentTime = 0;
         birthdayMusic.removeEventListener("timeupdate", stopMusic);
       }
+      birthdayMusic.play();
+    }
 });
