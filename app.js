@@ -80,7 +80,7 @@ function change(str) {
     image.alt = entry.name;
   } else {
     heading.textContent = "Colleagues";
-    message.textContent = "Aansu Bahe To Ehsaas Hota Hai, Dosti Ke Bina Jeevan Kitna Udaas Rahta Hai, Umr Ho Aapki Chand Jitni Lambi, Aap Jaisa Dost Kahan Har Kisi Ke Pas Hota Hai.";
+    message.textContent = "Systems ho ya challenges, aap har problem ka solution nikaal dete ho, Hardware ho ya deadlines, sabko smoothly handle kar lete ho. Team ko guidance, aur kaam ko perfect direction dete ho, Har technical issue ko calmly troubleshoot kar dete ho. Aaj bas tickets, targets aur escalations ko side mein rakhiye, Happy Birthday Sir — aaj system nahi, bas celebration reboot kijiye! 🎂💻🎉";
     image.src = "./images/main.jpeg";
     image.alt = "Colleagues celebrating Kiran";
   }
