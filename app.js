@@ -271,4 +271,16 @@ openCurtainButton.addEventListener("click", function () {
   curtain.classList.add("is-open");
   document.body.classList.add("curtain-open");
   startCelebration();
+
+  const birthdayMusic = document.getElementById("birthdayMusic");
+
+  if (birthdayMusic) {
+    birthdayMusic.currentTime = 0;
+    birthdayMusic.play();
+
+    setTimeout(() => {
+      birthdayMusic.pause();
+      birthdayMusic.currentTime = 0;
+    }, 13000);
+  }
 });
