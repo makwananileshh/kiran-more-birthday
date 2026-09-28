@@ -20,7 +20,7 @@ const colleagueMessages = {
   nilesh: {
     name: "Nilesh",
     message: "Happy Birthday to a manager who's only getting better with age… like fine wine! Or whisky. Definitely whisky at this point. Thanks for being awesome and not holding grudges against the team. Have a legendary day!",
-    image: "nilesh.JPG",
+    image: "nilesh.jpeg",
     theme: "nilesh"
   },
   ganesh: {
